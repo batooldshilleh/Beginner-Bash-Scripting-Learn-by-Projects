@@ -5,7 +5,7 @@
 
 1. [Project 1: Random Quote Generator](#project-1-random-quote-generator)
 2. [Project 2: Password Generator](#project-2-password-generator)
-3. [Project 3: Another Project Title](#project-3-another-project-title)
+3. [Project 3: Digital Clock](#project-3-digital-clock)
 
 ---
 
@@ -64,6 +64,35 @@ batool@batool-HP-ProBook-450-G6:~$ ./project-2.sh 8
 Your password is d4f9a6b2
 ```
 ![Password Generator](https://github.com/user-attachments/assets/d38cb4c7-b1cf-416b-a332-1ed4f3eb01f1)
+
+---
+## Project 3: Digital Clock
+
+### Description
+This script continuously displays the current time in HH:MM:SS format, updating every second. It can be used as a simple digital clock in the terminal.
+
+### Code
+DigitalClock.sh
+
+### How to Run
+1. Make the script executable:
+   ```bash
+   chmod +x DigitalClock.sh
+   ```
+2. Run the script:
+   ```bash
+   ./DigitalClock.sh
+   ```
+
+### Example Output
+```bash
+batool@batool-HP-ProBook-450-G6:~$ ./project-3.sh
+12:34:56
+12:34:57
+12:34:58
+...
+```
+![DigitalClock](https://github.com/user-attachments/assets/28b733dc-3797-483d-802e-7ad096dbed23)
 
 ---
 
