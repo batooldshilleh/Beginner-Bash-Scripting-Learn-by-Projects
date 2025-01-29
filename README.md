@@ -7,7 +7,7 @@
 2. [Project 2: Password Generator](#project-2-password-generator)
 3. [Project 3: Digital Clock](#project-3-digital-clock)
 4. [Project 4: System Update & Maintenance](#project-4-system-update-maintenance)
-
+5. [Project 5: Root Access Check](#project-5-root-access-check)
 ---
 
 ## Project 1: Random Quote Generator
@@ -123,7 +123,35 @@ Calculating upgrade... Done
 The following packages will be upgraded:
    ...
 ```
+## Project 5: Root Access Check
 
+### Description
+This script checks if the user has root access before allowing execution.
+
+### Code
+RootAccessCheck.sh
+
+### How to Run
+1. Make the script executable:
+   ```bash
+   chmod +x Root Access Check.sh
+   ```
+2. Run the script:
+   ```bash
+   ./Root Access Check.sh
+   ```
+
+### Example Output
+```bash
+batool@batool-HP-ProBook-450-G6:~$ sudo ./Root Access Check.sh
+[sudo] password for batool: 
+You have access to this file system ...
+
+batool@batool-HP-ProBook-450-G6:~$ ./Root Access Check.sh
+You must be root to access this file system...
+```
+
+---
 ## How to Use the Repository
 
 1. Clone the repository:
