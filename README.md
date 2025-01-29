@@ -4,7 +4,7 @@
 ## Table of Contents
 
 1. [Project 1: Random Quote Generator](#project-1-random-quote-generator)
-2. [Project 2: Another Project Title](#project-2-another-project-title)
+2. [Project 2: Password Generator](#project-2-password-generator)
 3. [Project 3: Another Project Title](#project-3-another-project-title)
 
 ---
@@ -40,18 +40,30 @@ The future belongs to those who believe in the beauty of their dreams.
 
 ---
 
-## Project 2: Another Project Title
+## Project 2: Password Generator
 
 ### Description
-Description for the second project.
+This script generates a random password using the current date hashed with SHA-256. The user can specify the length of the password as a command-line argument.
 
 ### Code
-```bash
-# Your script code here
-```
+PasswordGenerator.sh
 
 ### How to Run
-1. Description of how to run the second script.
+1. Make the script executable:
+   ```bash
+   chmod +x PasswordGenerator.sh
+   ```
+2. Run the script with the desired password length (e.g., 8 characters):
+   ```bash
+   ./PasswordGenerator.sh 8
+   ```
+
+### Example Output
+```bash
+batool@batool-HP-ProBook-450-G6:~$ ./project-2.sh 8
+Your password is d4f9a6b2
+```
+![Password Generator](https://github.com/user-attachments/assets/d38cb4c7-b1cf-416b-a332-1ed4f3eb01f1)
 
 ---
 
