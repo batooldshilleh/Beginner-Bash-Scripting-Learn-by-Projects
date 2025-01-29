@@ -6,6 +6,7 @@
 1. [Project 1: Random Quote Generator](#project-1-random-quote-generator)
 2. [Project 2: Password Generator](#project-2-password-generator)
 3. [Project 3: Digital Clock](#project-3-digital-clock)
+4. [Project 4: System Update & Maintenance](#project-4-system-update-maintenance)
 
 ---
 
@@ -95,6 +96,33 @@ batool@batool-HP-ProBook-450-G6:~$ ./project-3.sh
 ![DigitalClock](https://github.com/user-attachments/assets/28b733dc-3797-483d-802e-7ad096dbed23)
 
 ---
+## Project 4: System Update & Maintenance
+
+### Description
+This script updates and upgrades the system packages, then removes unnecessary ones to free up space.
+
+### Code
+SystemUpdateMaintenance.sh
+
+### How to Run
+1. Make the script executable:
+   ```bash
+   chmod +x SystemUpdateMaintenance.sh
+   ```
+2. Run the script with superuser privileges:
+   ```bash
+   sudo ./SystemUpdateMaintenance.sh
+   ```
+
+### Example Output
+```bash
+batool@batool-HP-ProBook-450-G6:~$ sudo ./project-4.sh
+Reading package lists... Done
+Building dependency tree... Done
+Calculating upgrade... Done
+The following packages will be upgraded:
+   ...
+```
 
 ## How to Use the Repository
 
