@@ -36,6 +36,7 @@ The only way to do great work is to love what you do.
 batool@batool-HP-ProBook-450-G6:~$ ./project-1.sh
 The future belongs to those who believe in the beauty of their dreams.
 ```
+![Random Quote Generator](https://github.com/user-attachments/assets/d3b4ead9-3288-4aaf-93f7-943b58bc7153)
 
 ---
 
