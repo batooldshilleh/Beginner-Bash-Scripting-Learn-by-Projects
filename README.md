@@ -11,6 +11,8 @@
 6. [Project 6: Package Installer](#project-6-package-installer)
 7. [Project 7: Image Processing](#project-7-image-processing)
 8. [Project 8: File Information](#project-8-file-information)
+9. [Project 9: Employee Data Collection](#project-9-employee-data-collection)
+10. [Project 10: Server Utilization Monitor](#project-10-server-utilization-monitor)
 ---
 
 ## Project 1: Random Quote Generator
@@ -231,6 +233,93 @@ Permissions
 READABLE=TRUE
 WRITABLE=TRUE
 EXECUTABLE=FALSE
+```
+---
+
+## Project 9: Employee Data Collection
+
+### Description
+This script gathers employee information and stores it in a CSV file for record-keeping.
+
+### Code
+EmployeeDataCollection.sh
+### How to Run
+1. Make the script executable:
+   ```bash
+   chmod +x EmployeeDataCollection.sh
+   ```
+2. Run the script:
+   ```bash
+   ./EmployeeDataCollection.sh
+   ```
+
+### Example Output
+```bash
+batool@batool-HP-ProBook-450-G6:~$ ./project-9.sh
+[+] Enter your name: Batool
+[+] Enter your employee ID: 12345
+[+] Enter your department: IT
+[+] Enter your gender: Female
+
+Do you confirm the provided information is correct? [y/n]: y
+Your data has been stored successfully.
+```
+---
+
+## Project 10: Server Utilization Monitor
+
+### Description
+This script provides real-time server utilization information, including uptime, logged-in users, last login details, disk and memory usage, and the most resource-intensive processes.
+
+### Code
+ServerUtilizationMonitor.sh
+
+### How to Run
+1. Make the script executable:
+   ```bash
+   chmod +x ServerUtilizationMonitor.sh
+   ```
+2. Run the script:
+   ```bash
+   ./ServerUtilizationMonitor.sh
+   ```
+
+### Example Output
+```bash
+batool@batool-HP-ProBook-450-G6:~$ ./project-10.sh
+                               ******************************
+                               ***** SERVER UTILIZATION *****
+                               ******************************
+===========================================
+
+Today's date is : Tue Jan 29 10:30:45 UTC 2025
+===========================================
+
+Uptime: 10:30:45 up 5 days,  2:45,  2 users,  load average: 0.12, 0.14, 0.10
+===========================================
+
+Currently logged-on users:
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+batool   pts/0    192.168.1.100    10:25    0.00s  0.10s  0.05s -bash
+===========================================
+
+Last logins
+batool   pts/0    192.168.1.100    Tue Jan 29 10:25   still logged in
+batool   pts/1    192.168.1.101    Mon Jan 28 22:15 - 23:45  (01:30)
+===========================================
+
+Disk and Memory usage
+
+Free/Total disk: 120G/500G
+Free/Total memory: 2048/8192 MB
+===========================================
+
+Utilization and most expensive processes
+
+Tasks: 250 total,   2 running, 248 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.5 us,  1.2 sy,  0.0 ni, 95.0 id,  0.2 wa,  0.1 hi,  0.0 si,  0.0 st
+Mem:   8192M total,   2048M used,   6144M free,    512M buffers
+===========================================
 ```
 ---
 ## How to Use the Repository
