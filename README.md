@@ -8,6 +8,7 @@
 3. [Project 3: Digital Clock](#project-3-digital-clock)
 4. [Project 4: System Update & Maintenance](#project-4-system-update-maintenance)
 5. [Project 5: Root Access Check](#project-5-root-access-check)
+6. [Project 6: Package Installer](#project-6-package-installer)
 ---
 
 ## Project 1: Random Quote Generator
@@ -150,6 +151,25 @@ You have access to this file system ...
 batool@batool-HP-ProBook-450-G6:~$ ./Root Access Check.sh
 You must be root to access this file system...
 ```
+---
+
+## Project 6: Package Installer
+
+### Description
+This script installs specific packages on the system and ensures they are properly set up. It checks if the script is run as root before proceeding.
+
+### Code
+PackageInstaller.sh
+
+### How to Run
+1. Make the script executable:
+   ```bash
+   chmod +x PackageInstaller.sh
+   ```
+2. Run the script with superuser privileges:
+   ```bash
+   sudo ./PackageInstaller.sh
+   ```
 
 ---
 ## How to Use the Repository
