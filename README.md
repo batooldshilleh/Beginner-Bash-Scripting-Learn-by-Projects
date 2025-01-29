@@ -21,12 +21,12 @@ RandomQuoteGenerator.sh
 ### How to Run
 1. Make the script executable:
    ```bash
-   chmod +x project-1.sh
+   chmod +x RandomQuoteGenerator.sh
    ```
 
 2. Run the script:
    ```bash
-   ./project-1.sh
+   ./RandomQuoteGenerator.sh
    ```
 
 ### Example Output
@@ -59,12 +59,12 @@ Description for the second project.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/repository-name.git
+   git clone https://github.com/batooldshilleh/Beginner-Bash-Scripting-Learn-by-Projects.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd repository-name
+   cd Beginner-Bash-Scripting-Learn-by-Projects
    ```
 
 3. Follow the steps for each project to execute and test them.
