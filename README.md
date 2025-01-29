@@ -10,6 +10,7 @@
 5. [Project 5: Root Access Check](#project-5-root-access-check)
 6. [Project 6: Package Installer](#project-6-package-installer)
 7. [Project 7: Image Processing](#project-7-image-processing)
+8. [Project 8: File Information](#project-8-file-information)
 ---
 
 ## Project 1: Random Quote Generator
@@ -196,7 +197,41 @@ ImageProcessing.sh
 batool@batool-HP-ProBook-450-G6:~$ ./project-7.sh sample.jpg
 [+] File conversion completed.
 ```
+---
 
+## Project 8: File Information
+
+### Description
+This script provides detailed information about a specified file, including its owner, size, creation date, and permissions.
+
+### Code
+FileInformation.sh
+
+### How to Run
+1. Make the script executable:
+   ```bash
+   chmod +x  FileInformation.sh
+   ```
+2. Run the script with a file argument:
+   ```bash
+   ./FileInformation.sh example.txt
+   ```
+
+### Example Output
+```bash
+batool@batool-HP-ProBook-450-G6:~$ ./project-8.sh example.txt
+File name: example.txt
+
+Owner: batool
+Size: 1024 bytes
+This file was created on Jan 29 at 10:15
+File Type: example.txt: ASCII text
+
+Permissions
+READABLE=TRUE
+WRITABLE=TRUE
+EXECUTABLE=FALSE
+```
 ---
 ## How to Use the Repository
 
